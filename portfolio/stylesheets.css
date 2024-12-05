@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 50px 0;
+}
+
+.header .profile-img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.header h1 {
+    margin-top: 20px;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo {
+    max-height: 60px;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover {
+    color: blue;
+}
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: blue;
+    transition: 0.4s;
+    bottom: 0;
+}
+nav ul li a:hover:after {
+    width: 100%;
+}
+.btn {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover {
+    background: transparent;
+    border-color:#fd4766;
+    color: blue;
+}
